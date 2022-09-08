@@ -1,0 +1,1 @@
+cvlc --play-and-exit https://live-bauerno.sharp-stream.com/top40_no_mp3 --aout=alsa --alsa-audio-device="hw:CARD=Headphones,0" --gain 0.7

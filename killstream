@@ -1,0 +1,1 @@
+ps aux | less | grep play-and-exit | awk '{print $2}' | xargs kill
