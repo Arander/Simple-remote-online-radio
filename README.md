@@ -11,3 +11,9 @@ FOR PERSONAL BACKUP PURPOSES ONLY - THE CODE HAS NOT SECURITY WHATSOEVER (IN CAS
 3) A ESP32 microcontroller is always on elsewhere at my apartment. I intended it to continuosly monitor IR remotes and perform certain tasks.
 4) The sketch loaded to the ESP performs an action (GET call to the Raspberry Pi's IP address) when a trigger is received (i.e. a certain IR code is received by the IR sensor)
     (RELEVANT PARTS OF THE ESP32/ARDUINO CODE INCLUDED IN THE REPOSITORY)
+
+## Additional packages needed and notes
+
+- PHP is needed. php5-cli appears to work in a new install from scratch
+- Had to add shebangs to php files. Not sure how it worked before
+- Faced privileges issues. The user www-data had to be given privileges to run the scripts. Check if adding www-data to sudo and audio is necessary.
