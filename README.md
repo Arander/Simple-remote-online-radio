@@ -14,6 +14,6 @@ FOR PERSONAL BACKUP PURPOSES ONLY - THE CODE HAS NOT SECURITY WHATSOEVER (IN CAS
 
 ## Additional packages needed and notes
 
-- PHP is needed. php5-cli appears to work in a new install from scratch
+- PHP is needed. php5-cli appears to work in a new install from scratch and libapache2-mod-php7.4 or similar is also needed to execute the php files from browser.
 - Had to add shebangs to php files. Not sure how it worked before
 - Faced privileges issues. The user www-data had to be given privileges to run the scripts. Check if adding www-data to sudo and audio is necessary.
